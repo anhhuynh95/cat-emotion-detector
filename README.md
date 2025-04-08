@@ -1,7 +1,17 @@
 # Cat Emotion Detector
-An AI project to classify cat emotions (happy, sad, angry) using SVM and Random Forest models. Trained on images from Roboflow & Kaggle, it achieves ~... accuracy by analyzing features like ear and eyes position. Designed to help pet owners understand their cats’ emotions.
+An AI project to classify cat emotions (happy, sad, angry) using SVM and Random Forest.
 
-## Details
-- **Data:** ... images (Roboflow & Kaggle)
-- **Models:** SVM, Random Forest
-- **License:** CC BY-NC 4.0 (see LICENSE.txt)
+## Datasets
+- Source: Roboflow (https://universe.roboflow.com/cats-xofvm/cat-emotions & https://universe.roboflow.com/cat-emotion-classification/cat-emotions-cgrxv) and Kaggle (https://www.kaggle.com/datasets/anshtanwar/pets-facial-expression-dataset?resource=download)
+- Content: Cat images labeled Happy, Sad, Angry
+- Preprocessing: Resized to 64x64 pixels and HOG features extracted
+
+## Models
+- Type: SVM and Random Forest
+- Training: Trained on the above cat images
+- Features: Ear position, eye shape, whiskers, posture
+- Status: In progress, accuracy pending
+
+## Data Access
+- The dataset is private and stored locally.
+- Contact Anh Huynh (huynhanh291195@gmail.com) for access.
